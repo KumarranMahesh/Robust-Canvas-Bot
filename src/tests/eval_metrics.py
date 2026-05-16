@@ -320,7 +320,7 @@ def run_full_evaluation(benchmark_dir=None, output_dir=None):
     )
 
     results_path = os.path.join(output_dir, "empirical_results.md")
-    with open(results_path, "w") as f:
+    with open(results_path, "w", encoding="utf-8") as f:
         f.write(results_md)
 
     print(f"\nResults saved to {results_path}")
@@ -475,7 +475,7 @@ def save_raw_csv(output_dir, restoration, edges, ocr):
     # Restoration CSV
     if restoration:
         csv_path = os.path.join(output_dir, "restoration_metrics.csv")
-        with open(csv_path, "w", newline="") as f:
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=restoration[0].keys())
             writer.writeheader()
             writer.writerows(restoration)
@@ -483,7 +483,7 @@ def save_raw_csv(output_dir, restoration, edges, ocr):
     # Edge recovery CSV
     if edges:
         csv_path = os.path.join(output_dir, "edge_recovery_metrics.csv")
-        with open(csv_path, "w", newline="") as f:
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=edges[0].keys())
             writer.writeheader()
             writer.writerows(edges)
@@ -491,7 +491,7 @@ def save_raw_csv(output_dir, restoration, edges, ocr):
     # OCR CSV
     if ocr:
         csv_path = os.path.join(output_dir, "ocr_metrics.csv")
-        with open(csv_path, "w", newline="") as f:
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=ocr[0].keys())
             writer.writeheader()
             writer.writerows(ocr)

@@ -228,40 +228,64 @@ class LinguisticRestoration:
         return " ".join(corrected)
 
     @staticmethod
-    def generate_vector_synthesis(text, start_x, start_y):
+    def generate_vector_synthesis(text, bbox):
         """
-        Convert a corrected text string into robot-executable vector stroke paths.
+        Convert a corrected text string into robot-executable vector stroke paths
+        using an Affine transformation mapped to the original OCR bounding box.
 
         Each character is mapped to a set of skeletal line segments defined in
-        GLYPH_MAP. Characters not in the map receive a placeholder box stroke.
+        GLYPH_MAP. Transformations adapt to exactly match position, scale, and tilt.
 
         Args:
             text: The corrected text string to synthesize.
-            start_x: X coordinate of the top-left corner of the text region.
-            start_y: Y coordinate of the top-left corner of the text region.
+            bbox: The bounding box from EasyOCR (list of 4 points: [tl, tr, br, bl]).
 
         Returns:
             List of stroke paths, where each path is a list of (x, y) tuples.
         """
         paths = []
-        curr_x = start_x
+        if len(text) == 0:
+            return paths
 
+        # Define bounds of the standard text line
+        std_width = max(1, len(text) * CHAR_SPACING - CHAR_SPACING + CHAR_WIDTH)
+        std_height = CHAR_HEIGHT
+
+        # Source coordinates [Top-Left, Top-Right, Bottom-Left]
+        pts1 = np.float32([[0, 0], [std_width, 0], [0, std_height]])
+        # Target bounding box coordinates
+        pts2 = np.float32([bbox[0], bbox[1], bbox[3]])
+
+        # Affine mapping matrix 
+        M = cv2.getAffineTransform(pts1, pts2)
+
+        curr_x = 0
         for char in text.upper():
             glyph = GLYPH_MAP.get(char, None)
 
             if glyph is None:
                 # Fallback: draw a small box for unknown characters
-                paths.append([
-                    (curr_x + 2, start_y + 2),
-                    (curr_x + CHAR_WIDTH - 2, start_y + 2),
-                    (curr_x + CHAR_WIDTH - 2, start_y + CHAR_HEIGHT - 2),
-                    (curr_x + 2, start_y + CHAR_HEIGHT - 2),
-                    (curr_x + 2, start_y + 2),
-                ])
+                stroke = [
+                    (2, 2),
+                    (CHAR_WIDTH - 2, 2),
+                    (CHAR_WIDTH - 2, CHAR_HEIGHT - 2),
+                    (2, CHAR_HEIGHT - 2),
+                    (2, 2)
+                ]
+                mapped_stroke = []
+                for dx, dy in stroke:
+                    pt = np.array([curr_x + dx, dy, 1.0])
+                    mapped_pt = M.dot(pt)
+                    mapped_stroke.append((mapped_pt[0], mapped_pt[1]))
+                paths.append(mapped_stroke)
             else:
                 for stroke in glyph:
-                    absolute_stroke = [(curr_x + dx, start_y + dy) for dx, dy in stroke]
-                    paths.append(absolute_stroke)
+                    mapped_stroke = []
+                    for dx, dy in stroke:
+                        pt = np.array([curr_x + dx, dy, 1.0])
+                        mapped_pt = M.dot(pt)
+                        mapped_stroke.append((mapped_pt[0], mapped_pt[1]))
+                    paths.append(mapped_stroke)
 
             curr_x += CHAR_SPACING
 
@@ -288,10 +312,7 @@ class LinguisticRestoration:
             corrected_text = self.llm_spell_check_proxy(text)
             print(f"  Detected: '{text}' -> Repaired: '{corrected_text}' (conf: {prob:.2f})")
 
-            start_x = int(bbox[0][0])
-            start_y = int(bbox[0][1])
-
-            paths = self.generate_vector_synthesis(corrected_text, start_x, start_y)
+            paths = self.generate_vector_synthesis(corrected_text, bbox)
             all_paths.extend(paths)
 
         return all_paths
@@ -299,7 +320,8 @@ class LinguisticRestoration:
 
 if __name__ == "__main__":
     # Test vector synthesis
-    paths = LinguisticRestoration.generate_vector_synthesis("HELLO WORLD", 10, 10)
+    test_bbox = [[10, 10], [210, 10], [210, 40], [10, 40]]
+    paths = LinguisticRestoration.generate_vector_synthesis("HELLO WORLD", test_bbox)
     print(f"Generated {len(paths)} stroke paths for 'HELLO WORLD'")
     for i, p in enumerate(paths[:5]):
         print(f"  Stroke {i}: {p}")

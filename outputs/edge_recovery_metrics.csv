@@ -299,306 +299,306 @@ scene,combined,combined_moderate,CLAHE + Canny,0.1819526627218935,1352,390
 scene,combined,combined_moderate,HistEq + Canny,0.08727810650887574,1352,1443
 scene,combined,combined_moderate,Adaptive Thresh,0.5517751479289941,1352,237329
 scene,combined,combined_moderate,Ours (ADRR + Canny),0.0014792899408284023,1352,26
-text,dark,dark_severe,Canny Only,0.0,4122,0
-text,dark,dark_severe,CLAHE + Canny,0.0,4122,0
-text,dark,dark_severe,HistEq + Canny,1.0,4122,4122
-text,dark,dark_severe,Adaptive Thresh,0.7280446385249879,4122,233922
-text,dark,dark_severe,Ours (ADRR + Canny),0.1589034449296458,4122,7152
-text,dark,dark_heavy,Canny Only,0.0,4122,0
-text,dark,dark_heavy,CLAHE + Canny,0.0,4122,0
-text,dark,dark_heavy,HistEq + Canny,1.0,4122,4122
-text,dark,dark_heavy,Adaptive Thresh,0.7280446385249879,4122,233863
-text,dark,dark_heavy,Ours (ADRR + Canny),0.8706938379427462,4122,4358
-text,dark,dark_moderate,Canny Only,0.7760795730228045,4122,3199
-text,dark,dark_moderate,CLAHE + Canny,0.7760795730228045,4122,3199
-text,dark,dark_moderate,HistEq + Canny,1.0,4122,4122
-text,dark,dark_moderate,Adaptive Thresh,0.7280446385249879,4122,233853
-text,dark,dark_moderate,Ours (ADRR + Canny),0.7760795730228045,4122,3199
-text,dark,dark_mild,Canny Only,0.9958757884522077,4122,4105
-text,dark,dark_mild,CLAHE + Canny,0.9953905870936438,4122,4103
-text,dark,dark_mild,HistEq + Canny,1.0,4122,4122
-text,dark,dark_mild,Adaptive Thresh,0.7280446385249879,4122,233852
-text,dark,dark_mild,Ours (ADRR + Canny),0.9958757884522077,4122,4105
-text,motion_blur,mblur_severe_h,Canny Only,0.26322173702086366,4122,3070
-text,motion_blur,mblur_severe_h,CLAHE + Canny,0.26322173702086366,4122,3108
-text,motion_blur,mblur_severe_h,HistEq + Canny,0.16229985443959244,4122,2586
-text,motion_blur,mblur_severe_h,Adaptive Thresh,0.6957787481804949,4122,229936
-text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.26322173702086366,4122,3070
-text,motion_blur,mblur_moderate_h,Canny Only,0.26152353226589037,4122,2570
-text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.27292576419213976,4122,3524
-text,motion_blur,mblur_moderate_h,HistEq + Canny,0.1824357108199903,4122,3390
-text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.683163512857836,4122,229816
-text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.26152353226589037,4122,2570
-text,motion_blur,mblur_moderate_d,Canny Only,0.1693352741387676,4122,3897
-text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.1710334788937409,4122,3987
-text,motion_blur,mblur_moderate_d,HistEq + Canny,0.10431829209121786,4122,4759
-text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.4721009218825813,4122,226233
-text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.1693352741387676,4122,3897
-text,motion_blur,mblur_mild_v,Canny Only,0.4657933042212518,4122,4057
-text,motion_blur,mblur_mild_v,CLAHE + Canny,0.47404172731683647,4122,4602
-text,motion_blur,mblur_mild_v,HistEq + Canny,0.32290150412421154,4122,4526
-text,motion_blur,mblur_mild_v,Adaptive Thresh,0.5878214459000485,4122,230157
-text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.4657933042212518,4122,4057
-text,gaussian_blur,gblur_heavy,Canny Only,0.0019408054342552159,4122,29
-text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.1348859776807375,4122,1922
-text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,4122,2501
-text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.1358563803978651,4122,229379
-text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.030810286268801553,4122,1270
-text,gaussian_blur,gblur_mild,Canny Only,0.3508005822416303,4122,2251
-text,gaussian_blur,gblur_mild,CLAHE + Canny,0.3682678311499272,4122,3238
-text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,4122,3896
-text,gaussian_blur,gblur_mild,Adaptive Thresh,0.14361960213488598,4122,229810
-text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.09049005337214944,4122,3727
-text,combined,combined_dark_blur,Canny Only,0.0,4122,0
-text,combined,combined_dark_blur,CLAHE + Canny,0.016496846191169336,4122,126
-text,combined,combined_dark_blur,HistEq + Canny,0.1824357108199903,4122,3390
-text,combined,combined_dark_blur,Adaptive Thresh,0.853954391072295,4122,236221
-text,combined,combined_dark_blur,Ours (ADRR + Canny),0.053372149442018436,4122,1996
-text,combined,combined_moderate,Canny Only,0.030810286268801553,4122,190
-text,combined,combined_moderate,CLAHE + Canny,0.056283357593401265,4122,450
-text,combined,combined_moderate,HistEq + Canny,0.11353711790393013,4122,4716
-text,combined,combined_moderate,Adaptive Thresh,0.5795730228044639,4122,231309
-text,combined,combined_moderate,Ours (ADRR + Canny),0.004366812227074236,4122,281
-text,dark,dark_severe,Canny Only,0.0,4623,0
-text,dark,dark_severe,CLAHE + Canny,0.0,4623,0
-text,dark,dark_severe,HistEq + Canny,1.0,4623,4623
-text,dark,dark_severe,Adaptive Thresh,0.5660826303266278,4623,232149
-text,dark,dark_severe,Ours (ADRR + Canny),0.7897469175859831,4623,4754
-text,dark,dark_heavy,Canny Only,0.3848150551589877,4623,1779
-text,dark,dark_heavy,CLAHE + Canny,0.4194246160501839,4623,1942
-text,dark,dark_heavy,HistEq + Canny,1.0,4623,4623
-text,dark,dark_heavy,Adaptive Thresh,0.5660826303266278,4623,232145
-text,dark,dark_heavy,Ours (ADRR + Canny),0.7884490590525632,4623,4761
-text,dark,dark_moderate,Canny Only,0.9991347609777201,4623,4619
-text,dark,dark_moderate,CLAHE + Canny,0.9980532121998702,4623,4617
-text,dark,dark_moderate,HistEq + Canny,1.0,4623,4623
-text,dark,dark_moderate,Adaptive Thresh,0.5660826303266278,4623,232145
-text,dark,dark_moderate,Ours (ADRR + Canny),0.9991347609777201,4623,4619
-text,dark,dark_mild,Canny Only,0.9991347609777201,4623,4619
-text,dark,dark_mild,CLAHE + Canny,0.9976205926887303,4623,4624
-text,dark,dark_mild,HistEq + Canny,1.0,4623,4623
-text,dark,dark_mild,Adaptive Thresh,0.5660826303266278,4623,232145
-text,dark,dark_mild,Ours (ADRR + Canny),0.9991347609777201,4623,4619
-text,motion_blur,mblur_severe_h,Canny Only,0.2965606748864374,4623,4111
-text,motion_blur,mblur_severe_h,CLAHE + Canny,0.299589011464417,4623,4193
-text,motion_blur,mblur_severe_h,HistEq + Canny,0.15466147523253299,4623,2085
-text,motion_blur,mblur_severe_h,Adaptive Thresh,0.573220852260437,4623,229558
-text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.2965606748864374,4623,4111
-text,motion_blur,mblur_moderate_h,Canny Only,0.33463119186675316,4623,4974
-text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.34133679428942243,4623,5230
-text,motion_blur,mblur_moderate_h,HistEq + Canny,0.16590958252217175,4623,2460
-text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.5738697815271468,4623,229619
-text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.33463119186675316,4623,4974
-text,motion_blur,mblur_moderate_d,Canny Only,0.3034825870646766,4623,6956
-text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.31148604802076574,4623,7008
-text,motion_blur,mblur_moderate_d,HistEq + Canny,0.09712308025091931,4623,4207
-text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.4462470257408609,4623,226381
-text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.3034825870646766,4623,6956
-text,motion_blur,mblur_mild_v,Canny Only,0.4600908500973394,4623,6404
-text,motion_blur,mblur_mild_v,CLAHE + Canny,0.45598096474150984,4623,6422
-text,motion_blur,mblur_mild_v,HistEq + Canny,0.2582738481505516,4623,4639
-text,motion_blur,mblur_mild_v,Adaptive Thresh,0.4925373134328358,4623,228837
-text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.4600908500973394,4623,6404
-text,gaussian_blur,gblur_heavy,Canny Only,0.014925373134328358,4623,209
-text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.18256543370105993,4623,3068
-text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,4623,2101
-text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.19294830196841878,4623,228137
-text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.07462686567164178,4623,1804
-text,gaussian_blur,gblur_mild,Canny Only,0.5029201817001947,4623,4453
-text,gaussian_blur,gblur_mild,CLAHE + Canny,0.47696301103179756,4623,4743
-text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,4623,2598
-text,gaussian_blur,gblur_mild,Adaptive Thresh,0.1981397361020982,4623,229324
-text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.1981397361020982,4623,5641
-text,combined,combined_dark_blur,Canny Only,0.0,4623,0
-text,combined,combined_dark_blur,CLAHE + Canny,0.10296344365130868,4623,919
-text,combined,combined_dark_blur,HistEq + Canny,0.16590958252217175,4623,2460
-text,combined,combined_dark_blur,Adaptive Thresh,0.691109669046074,4623,233738
-text,combined,combined_dark_blur,Ours (ADRR + Canny),0.1209171533636167,4623,3754
-text,combined,combined_moderate,Canny Only,0.0845771144278607,4623,749
-text,combined,combined_moderate,CLAHE + Canny,0.11096690460739779,4623,1149
-text,combined,combined_moderate,HistEq + Canny,0.11204845338524767,4623,4384
-text,combined,combined_moderate,Adaptive Thresh,0.47566515249837765,4623,229574
-text,combined,combined_moderate,Ours (ADRR + Canny),0.0783041315163314,4623,2045
-text,dark,dark_severe,Canny Only,0.0,2868,0
-text,dark,dark_severe,CLAHE + Canny,0.0,2868,0
-text,dark,dark_severe,HistEq + Canny,1.0,2868,2868
-text,dark,dark_severe,Adaptive Thresh,0.9236401673640168,2868,237246
-text,dark,dark_severe,Ours (ADRR + Canny),0.150976290097629,2868,4827
-text,dark,dark_heavy,Canny Only,0.19874476987447698,2868,570
-text,dark,dark_heavy,CLAHE + Canny,0.19735006973500696,2868,570
-text,dark,dark_heavy,HistEq + Canny,1.0,2868,2868
-text,dark,dark_heavy,Adaptive Thresh,0.9236401673640168,2868,237246
-text,dark,dark_heavy,Ours (ADRR + Canny),0.9476987447698745,2868,3412
-text,dark,dark_moderate,Canny Only,0.8828451882845189,2868,2532
-text,dark,dark_moderate,CLAHE + Canny,0.8814504881450488,2868,2535
-text,dark,dark_moderate,HistEq + Canny,1.0,2868,2868
-text,dark,dark_moderate,Adaptive Thresh,0.9236401673640168,2868,237246
-text,dark,dark_moderate,Ours (ADRR + Canny),0.8828451882845189,2868,2532
-text,dark,dark_mild,Canny Only,0.9947698744769874,2868,2853
-text,dark,dark_mild,CLAHE + Canny,0.99302649930265,2868,2868
-text,dark,dark_mild,HistEq + Canny,1.0,2868,2868
-text,dark,dark_mild,Adaptive Thresh,0.9236401673640168,2868,237246
-text,dark,dark_mild,Ours (ADRR + Canny),0.9947698744769874,2868,2853
-text,motion_blur,mblur_severe_h,Canny Only,0.3612273361227336,2868,2798
-text,motion_blur,mblur_severe_h,CLAHE + Canny,0.36157601115760113,2868,2817
-text,motion_blur,mblur_severe_h,HistEq + Canny,0.15376569037656904,2868,1691
-text,motion_blur,mblur_severe_h,Adaptive Thresh,0.8040446304044631,2868,234747
-text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.3612273361227336,2868,2798
-text,motion_blur,mblur_moderate_h,Canny Only,0.36436541143654116,2868,2811
-text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.36262203626220363,2868,3021
-text,motion_blur,mblur_moderate_h,HistEq + Canny,0.16596931659693165,2868,2363
-text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.7785913528591353,2868,234257
-text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.36436541143654116,2868,2811
-text,motion_blur,mblur_moderate_d,Canny Only,0.1708507670850767,2868,2818
-text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.1983960948396095,2868,3395
-text,motion_blur,mblur_moderate_d,HistEq + Canny,0.12203626220362622,2868,3931
-text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.5282426778242678,2868,230930
-text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.1708507670850767,2868,2818
-text,motion_blur,mblur_mild_v,Canny Only,0.3891213389121339,2868,3091
-text,motion_blur,mblur_mild_v,CLAHE + Canny,0.3908647140864714,2868,3321
-text,motion_blur,mblur_mild_v,HistEq + Canny,0.27615062761506276,2868,3463
-text,motion_blur,mblur_mild_v,Adaptive Thresh,0.6586471408647141,2868,233566
-text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.3891213389121339,2868,3091
-text,gaussian_blur,gblur_heavy,Canny Only,0.0,2868,0
-text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.012552301255230125,2868,195
-text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,2868,1899
-text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.22384937238493724,2868,232990
-text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.0,2868,0
-text,gaussian_blur,gblur_mild,Canny Only,0.13563458856345886,2868,1079
-text,gaussian_blur,gblur_mild,CLAHE + Canny,0.28068340306834033,2868,3566
-text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,2868,2442
-text,gaussian_blur,gblur_mild,Adaptive Thresh,0.033821478382147836,2868,232917
-text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.11785216178521618,2868,2905
-text,combined,combined_dark_blur,Canny Only,0.0,2868,0
-text,combined,combined_dark_blur,CLAHE + Canny,0.0,2868,0
-text,combined,combined_dark_blur,HistEq + Canny,0.1705020920502092,2868,2378
-text,combined,combined_dark_blur,Adaptive Thresh,0.8880753138075314,2868,237710
-text,combined,combined_dark_blur,Ours (ADRR + Canny),0.058577405857740586,2868,1709
-text,combined,combined_moderate,Canny Only,0.01603905160390516,2868,118
-text,combined,combined_moderate,CLAHE + Canny,0.025453277545327755,2868,223
-text,combined,combined_moderate,HistEq + Canny,0.1398186889818689,2868,3907
-text,combined,combined_moderate,Adaptive Thresh,0.648884239888424,2868,233920
-text,combined,combined_moderate,Ours (ADRR + Canny),0.00906555090655509,2868,359
-text,dark,dark_severe,Canny Only,0.0,3343,0
-text,dark,dark_severe,CLAHE + Canny,0.0,3343,0
-text,dark,dark_severe,HistEq + Canny,1.0,3343,3343
-text,dark,dark_severe,Adaptive Thresh,0.7971881543523781,3343,236358
-text,dark,dark_severe,Ours (ADRR + Canny),0.9093628477415495,3343,3745
-text,dark,dark_heavy,Canny Only,0.0,3343,0
-text,dark,dark_heavy,CLAHE + Canny,0.5127131319174394,3343,1714
-text,dark,dark_heavy,HistEq + Canny,1.0,3343,3343
-text,dark,dark_heavy,Adaptive Thresh,0.7971881543523781,3343,236358
-text,dark,dark_heavy,Ours (ADRR + Canny),0.9138498354771164,3343,3732
-text,dark,dark_moderate,Canny Only,0.9279090637152259,3343,3102
-text,dark,dark_moderate,CLAHE + Canny,0.9252168710738857,3343,3095
-text,dark,dark_moderate,HistEq + Canny,1.0,3343,3343
-text,dark,dark_moderate,Adaptive Thresh,0.7971881543523781,3343,236358
-text,dark,dark_moderate,Ours (ADRR + Canny),0.9279090637152259,3343,3102
-text,dark,dark_mild,Canny Only,0.996709542327251,3343,3332
-text,dark,dark_mild,CLAHE + Canny,0.9958121447801376,3343,3337
-text,dark,dark_mild,HistEq + Canny,1.0,3343,3343
-text,dark,dark_mild,Adaptive Thresh,0.7971881543523781,3343,236358
-text,dark,dark_mild,Ours (ADRR + Canny),0.996709542327251,3343,3332
-text,motion_blur,mblur_severe_h,Canny Only,0.33263535746335626,3343,2865
-text,motion_blur,mblur_severe_h,CLAHE + Canny,0.33712234519892315,3343,2933
-text,motion_blur,mblur_severe_h,HistEq + Canny,0.16183069099611128,3343,1687
-text,motion_blur,mblur_severe_h,Adaptive Thresh,0.6802273407119354,3343,233725
-text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.33263535746335626,3343,2865
-text,motion_blur,mblur_moderate_h,Canny Only,0.3386180077774454,3343,2867
-text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.33951540532455876,3343,2867
-text,motion_blur,mblur_moderate_h,HistEq + Canny,0.16781334131020043,3343,2072
-text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.6805264732276398,3343,233532
-text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.3386180077774454,3343,2867
-text,motion_blur,mblur_moderate_d,Canny Only,0.26413401136703557,3343,4136
-text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.2802871672150763,3343,4428
-text,motion_blur,mblur_moderate_d,HistEq + Canny,0.107986838169309,3343,3688
-text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.5079270116661682,3343,230867
-text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.26413401136703557,3343,4136
-text,motion_blur,mblur_mild_v,Canny Only,0.49536344600658094,3343,4121
-text,motion_blur,mblur_mild_v,CLAHE + Canny,0.4926712533652408,3343,4189
-text,motion_blur,mblur_mild_v,HistEq + Canny,0.2865689500448699,3343,3834
-text,motion_blur,mblur_mild_v,Adaptive Thresh,0.6377505234819025,3343,233402
-text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.49536344600658094,3343,4121
-text,gaussian_blur,gblur_heavy,Canny Only,0.0,3343,0
-text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.03529763685312594,3343,1065
-text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,3343,1695
-text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.30332037092431946,3343,232777
-text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.0,3343,0
-text,gaussian_blur,gblur_mild,Canny Only,0.36045468142387077,3343,2491
-text,gaussian_blur,gblur_mild,CLAHE + Canny,0.30421776847143284,3343,3202
-text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,3343,2440
-text,gaussian_blur,gblur_mild,Adaptive Thresh,0.1525575830092731,3343,232760
-text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.12324259647023632,3343,3139
-text,combined,combined_dark_blur,Canny Only,0.0,3343,0
-text,combined,combined_dark_blur,CLAHE + Canny,0.0,3343,0
-text,combined,combined_dark_blur,HistEq + Canny,0.16781334131020043,3343,2072
-text,combined,combined_dark_blur,Adaptive Thresh,0.8282979359856416,3343,237111
-text,combined,combined_dark_blur,Ours (ADRR + Canny),0.09721806760394855,3343,2142
-text,combined,combined_moderate,Canny Only,0.029314986539036792,3343,191
-text,combined,combined_moderate,CLAHE + Canny,0.041280287167215074,3343,311
-text,combined,combined_moderate,HistEq + Canny,0.12324259647023632,3343,3656
-text,combined,combined_moderate,Adaptive Thresh,0.5629673945557883,3343,233654
-text,combined,combined_moderate,Ours (ADRR + Canny),0.015854023332336226,3343,460
-text,dark,dark_severe,Canny Only,0.0,5904,0
-text,dark,dark_severe,CLAHE + Canny,0.0,5904,0
-text,dark,dark_severe,HistEq + Canny,1.0,5904,5904
-text,dark,dark_severe,Adaptive Thresh,0.6100948509485095,5904,230503
-text,dark,dark_severe,Ours (ADRR + Canny),0.19088753387533874,5904,9923
-text,dark,dark_heavy,Canny Only,0.0,5904,0
-text,dark,dark_heavy,CLAHE + Canny,0.0,5904,0
-text,dark,dark_heavy,HistEq + Canny,1.0,5904,5904
-text,dark,dark_heavy,Adaptive Thresh,0.6100948509485095,5904,230329
-text,dark,dark_heavy,Ours (ADRR + Canny),0.7974254742547425,5904,6095
-text,dark,dark_moderate,Canny Only,0.8763550135501355,5904,5174
-text,dark,dark_moderate,CLAHE + Canny,0.8760162601626016,5904,5174
-text,dark,dark_moderate,HistEq + Canny,1.0,5904,5904
-text,dark,dark_moderate,Adaptive Thresh,0.6100948509485095,5904,230297
-text,dark,dark_moderate,Ours (ADRR + Canny),0.8763550135501355,5904,5174
-text,dark,dark_mild,Canny Only,0.9981368563685636,5904,5893
-text,dark,dark_mild,CLAHE + Canny,0.9983062330623306,5904,5906
-text,dark,dark_mild,HistEq + Canny,1.0,5904,5904
-text,dark,dark_mild,Adaptive Thresh,0.6100948509485095,5904,230297
-text,dark,dark_mild,Ours (ADRR + Canny),0.9981368563685636,5904,5893
-text,motion_blur,mblur_severe_h,Canny Only,0.2652439024390244,5904,4330
-text,motion_blur,mblur_severe_h,CLAHE + Canny,0.26913956639566394,5904,4520
-text,motion_blur,mblur_severe_h,HistEq + Canny,0.1480352303523035,5904,2683
-text,motion_blur,mblur_severe_h,Adaptive Thresh,0.6483739837398373,5904,228195
-text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.2652439024390244,5904,4330
-text,motion_blur,mblur_moderate_h,Canny Only,0.29081978319783197,5904,4292
-text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.29776422764227645,5904,4822
-text,motion_blur,mblur_moderate_h,HistEq + Canny,0.17005420054200543,5904,3527
-text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.6200880758807588,5904,227556
-text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.29081978319783197,5904,4292
-text,motion_blur,mblur_moderate_d,Canny Only,0.23187669376693767,5904,6656
-text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.25389566395663954,5904,7107
-text,motion_blur,mblur_moderate_d,HistEq + Canny,0.0953590785907859,5904,6078
-text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.48509485094850946,5904,222715
-text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.23187669376693767,5904,6656
-text,motion_blur,mblur_mild_v,Canny Only,0.470189701897019,5904,7088
-text,motion_blur,mblur_mild_v,CLAHE + Canny,0.4708672086720867,5904,7430
-text,motion_blur,mblur_mild_v,HistEq + Canny,0.320630081300813,5904,6308
-text,motion_blur,mblur_mild_v,Adaptive Thresh,0.5718157181571816,5904,226202
-text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.470189701897019,5904,7088
-text,gaussian_blur,gblur_heavy,Canny Only,0.0,5904,0
-text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.10721544715447154,5904,3511
-text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,5904,2614
-text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.25474254742547425,5904,226281
-text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.024898373983739838,5904,1177
-text,gaussian_blur,gblur_mild,Canny Only,0.42022357723577236,5904,4666
-text,gaussian_blur,gblur_mild,CLAHE + Canny,0.3856707317073171,5904,5376
-text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,5904,4196
-text,gaussian_blur,gblur_mild,Adaptive Thresh,0.15040650406504066,5904,226071
-text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.11941056910569106,5904,5405
-text,combined,combined_dark_blur,Canny Only,0.0,5904,0
-text,combined,combined_dark_blur,CLAHE + Canny,0.013719512195121951,5904,308
-text,combined,combined_dark_blur,HistEq + Canny,0.168529810298103,5904,3532
-text,combined,combined_dark_blur,Adaptive Thresh,0.7591463414634146,5904,234017
-text,combined,combined_dark_blur,Ours (ADRR + Canny),0.07876016260162602,5904,3759
-text,combined,combined_moderate,Canny Only,0.011517615176151762,5904,117
-text,combined,combined_moderate,CLAHE + Canny,0.06707317073170732,5904,744
-text,combined,combined_moderate,HistEq + Canny,0.10840108401084012,5904,6277
-text,combined,combined_moderate,Adaptive Thresh,0.6156842818428184,5904,228793
-text,combined,combined_moderate,Ours (ADRR + Canny),0.013211382113821139,5904,649
+text,dark,dark_severe,Canny Only,0.0,4125,0
+text,dark,dark_severe,CLAHE + Canny,0.0,4125,0
+text,dark,dark_severe,HistEq + Canny,1.0,4125,4125
+text,dark,dark_severe,Adaptive Thresh,0.7282424242424242,4125,233922
+text,dark,dark_severe,Ours (ADRR + Canny),0.15757575757575756,4125,7134
+text,dark,dark_heavy,Canny Only,0.0,4125,0
+text,dark,dark_heavy,CLAHE + Canny,0.0,4125,0
+text,dark,dark_heavy,HistEq + Canny,1.0,4125,4125
+text,dark,dark_heavy,Adaptive Thresh,0.7282424242424242,4125,233863
+text,dark,dark_heavy,Ours (ADRR + Canny),0.8705454545454545,4125,4352
+text,dark,dark_moderate,Canny Only,0.7718787878787878,4125,3184
+text,dark,dark_moderate,CLAHE + Canny,0.7718787878787878,4125,3184
+text,dark,dark_moderate,HistEq + Canny,1.0,4125,4125
+text,dark,dark_moderate,Adaptive Thresh,0.7282424242424242,4125,233853
+text,dark,dark_moderate,Ours (ADRR + Canny),0.7718787878787878,4125,3184
+text,dark,dark_mild,Canny Only,0.9958787878787879,4125,4108
+text,dark,dark_mild,CLAHE + Canny,0.9953939393939394,4125,4106
+text,dark,dark_mild,HistEq + Canny,1.0,4125,4125
+text,dark,dark_mild,Adaptive Thresh,0.7282424242424242,4125,233852
+text,dark,dark_mild,Ours (ADRR + Canny),0.9958787878787879,4125,4108
+text,motion_blur,mblur_severe_h,Canny Only,0.2606060606060606,4125,3077
+text,motion_blur,mblur_severe_h,CLAHE + Canny,0.2606060606060606,4125,3105
+text,motion_blur,mblur_severe_h,HistEq + Canny,0.16242424242424242,4125,2584
+text,motion_blur,mblur_severe_h,Adaptive Thresh,0.687030303030303,4125,229902
+text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.2606060606060606,4125,3077
+text,motion_blur,mblur_moderate_h,Canny Only,0.2589090909090909,4125,2557
+text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.2703030303030303,4125,3507
+text,motion_blur,mblur_moderate_h,HistEq + Canny,0.18327272727272728,4125,3376
+text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.6792727272727273,4125,229810
+text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.2589090909090909,4125,2557
+text,motion_blur,mblur_moderate_d,Canny Only,0.16533333333333333,4125,3809
+text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.17018181818181818,4125,3980
+text,motion_blur,mblur_moderate_d,HistEq + Canny,0.10375757575757576,4125,4710
+text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.47539393939393937,4125,226245
+text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.16533333333333333,4125,3809
+text,motion_blur,mblur_mild_v,Canny Only,0.46375757575757576,4125,3974
+text,motion_blur,mblur_mild_v,CLAHE + Canny,0.47369696969696967,4125,4540
+text,motion_blur,mblur_mild_v,HistEq + Canny,0.3233939393939394,4125,4531
+text,motion_blur,mblur_mild_v,Adaptive Thresh,0.5844848484848485,4125,230148
+text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.46375757575757576,4125,3974
+text,gaussian_blur,gblur_heavy,Canny Only,0.0019393939393939393,4125,29
+text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.1347878787878788,4125,1922
+text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,4125,2507
+text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.13624242424242425,4125,229372
+text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.030787878787878788,4125,1270
+text,gaussian_blur,gblur_mild,Canny Only,0.35054545454545455,4125,2251
+text,gaussian_blur,gblur_mild,CLAHE + Canny,0.3675151515151515,4125,3302
+text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,4125,3896
+text,gaussian_blur,gblur_mild,Adaptive Thresh,0.144,4125,229826
+text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.09042424242424242,4125,3691
+text,combined,combined_dark_blur,Canny Only,0.0,4125,0
+text,combined,combined_dark_blur,CLAHE + Canny,0.016484848484848484,4125,126
+text,combined,combined_dark_blur,HistEq + Canny,0.18327272727272728,4125,3376
+text,combined,combined_dark_blur,Adaptive Thresh,0.8489696969696969,4125,236202
+text,combined,combined_dark_blur,Ours (ADRR + Canny),0.05454545454545454,4125,2016
+text,combined,combined_moderate,Canny Only,0.030787878787878788,4125,190
+text,combined,combined_moderate,CLAHE + Canny,0.05624242424242424,4125,450
+text,combined,combined_moderate,HistEq + Canny,0.11393939393939394,4125,4682
+text,combined,combined_moderate,Adaptive Thresh,0.5823030303030303,4125,231324
+text,combined,combined_moderate,Ours (ADRR + Canny),0.004363636363636364,4125,281
+text,dark,dark_severe,Canny Only,0.0,4585,0
+text,dark,dark_severe,CLAHE + Canny,0.0,4585,0
+text,dark,dark_severe,HistEq + Canny,1.0,4585,4585
+text,dark,dark_severe,Adaptive Thresh,0.5648854961832062,4585,232133
+text,dark,dark_severe,Ours (ADRR + Canny),0.7882224645583424,4585,4727
+text,dark,dark_heavy,Canny Only,0.3880043620501636,4585,1779
+text,dark,dark_heavy,CLAHE + Canny,0.42290076335877863,4585,1942
+text,dark,dark_heavy,HistEq + Canny,1.0,4585,4585
+text,dark,dark_heavy,Adaptive Thresh,0.5648854961832062,4585,232129
+text,dark,dark_heavy,Ours (ADRR + Canny),0.7897491821155943,4585,4731
+text,dark,dark_moderate,Canny Only,0.9984732824427481,4585,4578
+text,dark,dark_moderate,CLAHE + Canny,0.9973827699018538,4585,4577
+text,dark,dark_moderate,HistEq + Canny,1.0,4585,4585
+text,dark,dark_moderate,Adaptive Thresh,0.5648854961832062,4585,232129
+text,dark,dark_moderate,Ours (ADRR + Canny),0.9984732824427481,4585,4578
+text,dark,dark_mild,Canny Only,0.9984732824427481,4585,4578
+text,dark,dark_mild,CLAHE + Canny,0.9969465648854962,4585,4582
+text,dark,dark_mild,HistEq + Canny,1.0,4585,4585
+text,dark,dark_mild,Adaptive Thresh,0.5648854961832062,4585,232129
+text,dark,dark_mild,Ours (ADRR + Canny),0.9984732824427481,4585,4578
+text,motion_blur,mblur_severe_h,Canny Only,0.29182115594329333,4585,4087
+text,motion_blur,mblur_severe_h,CLAHE + Canny,0.29574700109051255,4585,4173
+text,motion_blur,mblur_severe_h,HistEq + Canny,0.15354416575790622,4585,2086
+text,motion_blur,mblur_severe_h,Adaptive Thresh,0.5681570338058888,4585,229526
+text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.29182115594329333,4585,4087
+text,motion_blur,mblur_moderate_h,Canny Only,0.3317339149400218,4585,5006
+text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.3391494002181025,4585,5294
+text,motion_blur,mblur_moderate_h,HistEq + Canny,0.16619411123227917,4585,2459
+text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.5731733914940021,4585,229573
+text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.3317339149400218,4585,5006
+text,motion_blur,mblur_moderate_d,Canny Only,0.30730643402399127,4585,7042
+text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.3145038167938931,4585,7123
+text,motion_blur,mblur_moderate_d,HistEq + Canny,0.09182115594329335,4585,4102
+text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.44231188658669573,4585,226365
+text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.30730643402399127,4585,7042
+text,motion_blur,mblur_mild_v,Canny Only,0.46106870229007635,4585,6369
+text,motion_blur,mblur_mild_v,CLAHE + Canny,0.4577971646673937,4585,6387
+text,motion_blur,mblur_mild_v,HistEq + Canny,0.26106870229007634,4585,4636
+text,motion_blur,mblur_mild_v,Adaptive Thresh,0.49683751363140677,4585,228859
+text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.46106870229007635,4585,6369
+text,gaussian_blur,gblur_heavy,Canny Only,0.01504907306434024,4585,209
+text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.18429661941112324,4585,3144
+text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,4585,2103
+text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.19323882224645583,4585,228141
+text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.07459105779716467,4585,1807
+text,gaussian_blur,gblur_mild,Canny Only,0.5040348964013086,4585,4462
+text,gaussian_blur,gblur_mild,CLAHE + Canny,0.4798255179934569,4585,4720
+text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,4585,2605
+text,gaussian_blur,gblur_mild,Adaptive Thresh,0.19825517993456926,4585,229308
+text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.19672846237731734,4585,5565
+text,combined,combined_dark_blur,Canny Only,0.0,4585,0
+text,combined,combined_dark_blur,CLAHE + Canny,0.10381679389312977,4585,919
+text,combined,combined_dark_blur,HistEq + Canny,0.16619411123227917,4585,2459
+text,combined,combined_dark_blur,Adaptive Thresh,0.6852780806979281,4585,233650
+text,combined,combined_dark_blur,Ours (ADRR + Canny),0.12235550708833151,4585,3782
+text,combined,combined_moderate,Canny Only,0.08680479825517994,4585,781
+text,combined,combined_moderate,CLAHE + Canny,0.11079607415485278,4585,1133
+text,combined,combined_moderate,HistEq + Canny,0.10752453653217012,4585,4298
+text,combined,combined_moderate,Adaptive Thresh,0.47350054525627044,4585,229543
+text,combined,combined_moderate,Ours (ADRR + Canny),0.07808069792802617,4585,2039
+text,dark,dark_severe,Canny Only,0.0,2932,0
+text,dark,dark_severe,CLAHE + Canny,0.0,2932,0
+text,dark,dark_severe,HistEq + Canny,1.0,2932,2932
+text,dark,dark_severe,Adaptive Thresh,0.9239427012278308,2932,237250
+text,dark,dark_severe,Ours (ADRR + Canny),0.15381991814461118,2932,4900
+text,dark,dark_heavy,Canny Only,0.19577080491132332,2932,574
+text,dark,dark_heavy,CLAHE + Canny,0.1947476125511596,2932,576
+text,dark,dark_heavy,HistEq + Canny,1.0,2932,2932
+text,dark,dark_heavy,Adaptive Thresh,0.9239427012278308,2932,237250
+text,dark,dark_heavy,Ours (ADRR + Canny),0.9508867667121419,2932,3479
+text,dark,dark_moderate,Canny Only,0.9116643929058663,2932,2673
+text,dark,dark_moderate,CLAHE + Canny,0.910300136425648,2932,2678
+text,dark,dark_moderate,HistEq + Canny,1.0,2932,2932
+text,dark,dark_moderate,Adaptive Thresh,0.9239427012278308,2932,237250
+text,dark,dark_moderate,Ours (ADRR + Canny),0.9116643929058663,2932,2673
+text,dark,dark_mild,Canny Only,0.9942019099590723,2932,2915
+text,dark,dark_mild,CLAHE + Canny,0.992837653478854,2932,2929
+text,dark,dark_mild,HistEq + Canny,1.0,2932,2932
+text,dark,dark_mild,Adaptive Thresh,0.9239427012278308,2932,237250
+text,dark,dark_mild,Ours (ADRR + Canny),0.9942019099590723,2932,2915
+text,motion_blur,mblur_severe_h,Canny Only,0.3635743519781719,2932,2783
+text,motion_blur,mblur_severe_h,CLAHE + Canny,0.3639154160982265,2932,2805
+text,motion_blur,mblur_severe_h,HistEq + Canny,0.15177353342428376,2932,1697
+text,motion_blur,mblur_severe_h,Adaptive Thresh,0.8148021828103683,2932,234820
+text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.3635743519781719,2932,2783
+text,motion_blur,mblur_moderate_h,Canny Only,0.3656207366984993,2932,2763
+text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.3683492496589359,2932,2939
+text,motion_blur,mblur_moderate_h,HistEq + Canny,0.17155525238744884,2932,2389
+text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.788881309686221,2932,234350
+text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.3656207366984993,2932,2763
+text,motion_blur,mblur_moderate_d,Canny Only,0.1776944065484311,2932,2855
+text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.20497953615279674,2932,3470
+text,motion_blur,mblur_moderate_d,HistEq + Canny,0.1251705320600273,2932,3970
+text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.5300136425648022,2932,230850
+text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.1776944065484311,2932,2855
+text,motion_blur,mblur_mild_v,Canny Only,0.40109140518417463,2932,2996
+text,motion_blur,mblur_mild_v,CLAHE + Canny,0.39631650750341063,2932,3231
+text,motion_blur,mblur_mild_v,HistEq + Canny,0.27148703956343795,2932,3475
+text,motion_blur,mblur_mild_v,Adaptive Thresh,0.6589358799454298,2932,233568
+text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.40109140518417463,2932,2996
+text,gaussian_blur,gblur_heavy,Canny Only,0.0,2932,0
+text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.010914051841746248,2932,191
+text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,2932,1910
+text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.22237380627557982,2932,233010
+text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.0,2932,0
+text,gaussian_blur,gblur_mild,Canny Only,0.13233287858117326,2932,1054
+text,gaussian_blur,gblur_mild,CLAHE + Canny,0.2680763983628922,2932,3589
+text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,2932,2461
+text,gaussian_blur,gblur_mild,Adaptive Thresh,0.03274215552523874,2932,232905
+text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.1145975443383356,2932,2830
+text,combined,combined_dark_blur,Canny Only,0.0,2932,0
+text,combined,combined_dark_blur,CLAHE + Canny,0.0,2932,0
+text,combined,combined_dark_blur,HistEq + Canny,0.17394270122783084,2932,2398
+text,combined,combined_dark_blur,Adaptive Thresh,0.8997271487039563,2932,237747
+text,combined,combined_dark_blur,Ours (ADRR + Canny),0.05593451568894952,2932,1743
+text,combined,combined_moderate,Canny Only,0.010231923601637109,2932,70
+text,combined,combined_moderate,CLAHE + Canny,0.029331514324693043,2932,215
+text,combined,combined_moderate,HistEq + Canny,0.14085948158253753,2932,3956
+text,combined,combined_moderate,Adaptive Thresh,0.6493860845839018,2932,233899
+text,combined,combined_moderate,Ours (ADRR + Canny),0.0047748976807639835,2932,233
+text,dark,dark_severe,Canny Only,0.0,3337,0
+text,dark,dark_severe,CLAHE + Canny,0.0,3337,0
+text,dark,dark_severe,HistEq + Canny,1.0,3337,3337
+text,dark,dark_severe,Adaptive Thresh,0.8040155828588552,3337,236351
+text,dark,dark_severe,Ours (ADRR + Canny),0.9127959244830687,3337,3739
+text,dark,dark_heavy,Canny Only,0.0,3337,0
+text,dark,dark_heavy,CLAHE + Canny,0.5337129157926281,3337,1781
+text,dark,dark_heavy,HistEq + Canny,1.0,3337,3337
+text,dark,dark_heavy,Adaptive Thresh,0.8040155828588552,3337,236351
+text,dark,dark_heavy,Ours (ADRR + Canny),0.9181899910098891,3337,3729
+text,dark,dark_moderate,Canny Only,0.9301768055139347,3337,3104
+text,dark,dark_moderate,CLAHE + Canny,0.9271801018879233,3337,3096
+text,dark,dark_moderate,HistEq + Canny,1.0,3337,3337
+text,dark,dark_moderate,Adaptive Thresh,0.8040155828588552,3337,236351
+text,dark,dark_moderate,Ours (ADRR + Canny),0.9301768055139347,3337,3104
+text,dark,dark_mild,Canny Only,0.9949056038357806,3337,3320
+text,dark,dark_mild,CLAHE + Canny,0.9940065927479772,3337,3325
+text,dark,dark_mild,HistEq + Canny,1.0,3337,3337
+text,dark,dark_mild,Adaptive Thresh,0.8040155828588552,3337,236351
+text,dark,dark_mild,Ours (ADRR + Canny),0.9949056038357806,3337,3320
+text,motion_blur,mblur_severe_h,Canny Only,0.33473179502547196,3337,2853
+text,motion_blur,mblur_severe_h,CLAHE + Canny,0.33952652082709023,3337,2940
+text,motion_blur,mblur_severe_h,HistEq + Canny,0.1648186994306263,3337,1686
+text,motion_blur,mblur_severe_h,Adaptive Thresh,0.6850464489062031,3337,233733
+text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.33473179502547196,3337,2853
+text,motion_blur,mblur_moderate_h,Canny Only,0.3497153131555289,3337,2925
+text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.35480970931974826,3337,2996
+text,motion_blur,mblur_moderate_h,HistEq + Canny,0.17201078813305365,3337,2072
+text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.6865448007192089,3337,233570
+text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.3497153131555289,3337,2925
+text,motion_blur,mblur_moderate_d,Canny Only,0.26341024872640095,3337,4256
+text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.2795924483068625,3337,4591
+text,motion_blur,mblur_moderate_d,HistEq + Canny,0.10608330836080311,3337,3734
+text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.5094396164219359,3337,230866
+text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.26341024872640095,3337,4256
+text,motion_blur,mblur_mild_v,Canny Only,0.49835181300569376,3337,4052
+text,motion_blur,mblur_mild_v,CLAHE + Canny,0.4974528019178903,3337,4175
+text,motion_blur,mblur_mild_v,HistEq + Canny,0.28738387773449203,3337,3837
+text,motion_blur,mblur_mild_v,Adaptive Thresh,0.647887323943662,3337,233412
+text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.49835181300569376,3337,4052
+text,gaussian_blur,gblur_heavy,Canny Only,0.0,3337,0
+text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.04554989511537309,3337,1236
+text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,3337,1692
+text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.3026670662271501,3337,232759
+text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.0,3337,0
+text,gaussian_blur,gblur_mild,Canny Only,0.35540905004495055,3337,2432
+text,gaussian_blur,gblur_mild,CLAHE + Canny,0.30985915492957744,3337,3208
+text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,3337,2458
+text,gaussian_blur,gblur_mild,Adaptive Thresh,0.15433023673958646,3337,232757
+text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.11866946359005094,3337,3111
+text,combined,combined_dark_blur,Canny Only,0.0,3337,0
+text,combined,combined_dark_blur,CLAHE + Canny,0.0,3337,0
+text,combined,combined_dark_blur,HistEq + Canny,0.17201078813305365,3337,2072
+text,combined,combined_dark_blur,Adaptive Thresh,0.827090200779143,3337,237103
+text,combined,combined_dark_blur,Ours (ADRR + Canny),0.0943961642193587,3337,2139
+text,combined,combined_moderate,Canny Only,0.02427329937069224,3337,152
+text,combined,combined_moderate,CLAHE + Canny,0.04015582858855259,3337,292
+text,combined,combined_moderate,HistEq + Canny,0.1222655079412646,3337,3690
+text,combined,combined_moderate,Adaptive Thresh,0.5594845669763261,3337,233618
+text,combined,combined_moderate,Ours (ADRR + Canny),0.012885825591848966,3337,374
+text,dark,dark_severe,Canny Only,0.0,5906,0
+text,dark,dark_severe,CLAHE + Canny,0.0,5906,0
+text,dark,dark_severe,HistEq + Canny,1.0,5906,5906
+text,dark,dark_severe,Adaptive Thresh,0.6100575685743312,5906,230500
+text,dark,dark_severe,Ours (ADRR + Canny),0.1928547240094819,5906,9908
+text,dark,dark_heavy,Canny Only,0.0,5906,0
+text,dark,dark_heavy,CLAHE + Canny,0.0,5906,0
+text,dark,dark_heavy,HistEq + Canny,1.0,5906,5906
+text,dark,dark_heavy,Adaptive Thresh,0.6100575685743312,5906,230326
+text,dark,dark_heavy,Ours (ADRR + Canny),0.7968167964781578,5906,6099
+text,dark,dark_moderate,Canny Only,0.8843548933288181,5906,5223
+text,dark,dark_moderate,CLAHE + Canny,0.8840162546562818,5906,5223
+text,dark,dark_moderate,HistEq + Canny,1.0,5906,5906
+text,dark,dark_moderate,Adaptive Thresh,0.6100575685743312,5906,230294
+text,dark,dark_moderate,Ours (ADRR + Canny),0.8843548933288181,5906,5223
+text,dark,dark_mild,Canny Only,0.9977988486285134,5906,5893
+text,dark,dark_mild,CLAHE + Canny,0.9976295292922451,5906,5902
+text,dark,dark_mild,HistEq + Canny,1.0,5906,5906
+text,dark,dark_mild,Adaptive Thresh,0.6100575685743312,5906,230294
+text,dark,dark_mild,Ours (ADRR + Canny),0.9977988486285134,5906,5893
+text,motion_blur,mblur_severe_h,Canny Only,0.2590585844903488,5906,4272
+text,motion_blur,mblur_severe_h,CLAHE + Canny,0.2661699966136133,5906,4523
+text,motion_blur,mblur_severe_h,HistEq + Canny,0.1471385032170674,5906,2683
+text,motion_blur,mblur_severe_h,Adaptive Thresh,0.6445987131730444,5906,228118
+text,motion_blur,mblur_severe_h,Ours (ADRR + Canny),0.2590585844903488,5906,4272
+text,motion_blur,mblur_moderate_h,Canny Only,0.2858110396207247,5906,4281
+text,motion_blur,mblur_moderate_h,CLAHE + Canny,0.2929224517439892,5906,4808
+text,motion_blur,mblur_moderate_h,HistEq + Canny,0.1671181848967152,5906,3528
+text,motion_blur,mblur_moderate_h,Adaptive Thresh,0.6119200812732815,5906,227497
+text,motion_blur,mblur_moderate_h,Ours (ADRR + Canny),0.2858110396207247,5906,4281
+text,motion_blur,mblur_moderate_d,Canny Only,0.23603115475787334,5906,6704
+text,motion_blur,mblur_moderate_d,CLAHE + Canny,0.2571960717913986,5906,7141
+text,motion_blur,mblur_moderate_d,HistEq + Canny,0.0929563156112428,5906,6031
+text,motion_blur,mblur_moderate_d,Adaptive Thresh,0.48611581442600743,5906,222703
+text,motion_blur,mblur_moderate_d,Ours (ADRR + Canny),0.23603115475787334,5906,6704
+text,motion_blur,mblur_mild_v,Canny Only,0.4708770741618693,5906,7078
+text,motion_blur,mblur_mild_v,CLAHE + Canny,0.4708770741618693,5906,7401
+text,motion_blur,mblur_mild_v,HistEq + Canny,0.32170673890958346,5906,6337
+text,motion_blur,mblur_mild_v,Adaptive Thresh,0.5716220792414494,5906,226186
+text,motion_blur,mblur_mild_v,Ours (ADRR + Canny),0.4708770741618693,5906,7078
+text,gaussian_blur,gblur_heavy,Canny Only,0.0,5906,0
+text,gaussian_blur,gblur_heavy,CLAHE + Canny,0.10717913985777176,5906,3511
+text,gaussian_blur,gblur_heavy,HistEq + Canny,0.0,5906,2614
+text,gaussian_blur,gblur_heavy,Adaptive Thresh,0.25533355909244837,5906,226274
+text,gaussian_blur,gblur_heavy,Ours (ADRR + Canny),0.024889942431425668,5906,1177
+text,gaussian_blur,gblur_mild,Canny Only,0.42008127328140876,5906,4666
+text,gaussian_blur,gblur_mild,CLAHE + Canny,0.38689468337284116,5906,5467
+text,gaussian_blur,gblur_mild,HistEq + Canny,0.0,5906,4180
+text,gaussian_blur,gblur_mild,Adaptive Thresh,0.149339654588554,5906,226061
+text,gaussian_blur,gblur_mild,Ours (ADRR + Canny),0.11937013206908229,5906,5405
+text,combined,combined_dark_blur,Canny Only,0.0,5906,0
+text,combined,combined_dark_blur,CLAHE + Canny,0.013545546901456146,5906,308
+text,combined,combined_dark_blur,HistEq + Canny,0.16559431087030138,5906,3531
+text,combined,combined_dark_blur,Adaptive Thresh,0.7565187944463257,5906,233959
+text,combined,combined_dark_blur,Ours (ADRR + Canny),0.07873349136471385,5906,3754
+text,combined,combined_moderate,Canny Only,0.011513714866237725,5906,117
+text,combined,combined_moderate,CLAHE + Canny,0.06705045716220792,5906,744
+text,combined,combined_moderate,HistEq + Canny,0.10599390450389434,5906,6230
+text,combined,combined_moderate,Adaptive Thresh,0.6168303420250593,5906,228827
+text,combined,combined_moderate,Ours (ADRR + Canny),0.013206908228919742,5906,649
 mixed,dark,dark_severe,Canny Only,0.0,4048,0
 mixed,dark,dark_severe,CLAHE + Canny,0.1190711462450593,4048,538
 mixed,dark,dark_severe,HistEq + Canny,0.8312747035573123,4048,44309

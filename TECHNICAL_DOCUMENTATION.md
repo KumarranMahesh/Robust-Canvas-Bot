@@ -217,8 +217,8 @@ Runs GPU-Accelerated `EasyOCR` text bindings ensuring positional boundaries and 
 ### 9.2 Spell Repair Proxy
 Rule-based dictionaries and statistical distance proxies systematically evaluate bounding box labels. Words failing general lexicons generate permutations, reverting errors like `smentic` back to `semantic`.
 
-### 9.3 Vector Typography Synthesis
-The corrected syntax is dynamically rendered across Bézier/Line segment paths covering the complete A-Z Upper / 0-9 Array systems. This abstracts entirely past noise variables yielding perfect typographic lines irrespective of local source smudging.
+### 9.3 Vector Typography Synthesis & Affine Alignment
+The corrected syntax is dynamically rendered across Bézier/Line segment paths covering the complete A-Z Upper / 0-9 Array systems. Rather than rendering strokes at fixed coordinates, the abstraction applies an **Affine Transformation matrix** driven by the OCR bounding box coordinates. This ensures perfect typographic scaling and inclination dynamically scaling across the image irrespective of local source smudging.
 
 ---
 

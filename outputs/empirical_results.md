@@ -7,7 +7,7 @@
 
 | Degradation Type | N | PSNR (Degraded) | PSNR (Restored) | Δ PSNR | SSIM (Degraded) | SSIM (Restored) | Δ SSIM |
 |-----------------|---|-----------------|-----------------|--------|-----------------|-----------------|--------|
-| combined | 26 | 3.68 | 7.06 | +3.38 | 0.3232 | 0.5769 | +0.2537 |
+| combined | 26 | 3.68 | 7.06 | +3.38 | 0.3232 | 0.5770 | +0.2538 |
 | dark | 52 | 4.06 | 7.44 | +3.38 | 0.3766 | 0.6523 | +0.2757 |
 | gaussian_blur | 26 | 25.12 | 19.53 | -5.59 | 0.8597 | 0.8096 | -0.0502 |
 | motion_blur | 52 | 24.37 | 23.86 | -0.51 | 0.8575 | 0.8535 | -0.0040 |
@@ -17,11 +17,11 @@
 
 | Method | Overall Recovery | Dark Images | Blur Images | Combined |
 |--------|-----------------|-------------|-------------|----------|
-| Canny Only | 26.53% | 41.25% | 24.70% | 2.59% |
-| CLAHE + Canny | 31.93% | 51.77% | 26.24% | 9.30% |
+| Canny Only | 26.55% | 41.31% | 24.71% | 2.56% |
+| CLAHE + Canny | 31.99% | 51.87% | 26.29% | 9.31% |
 | HistEq + Canny | 36.13% | 89.73% | 8.56% | 11.64% |
-| Adaptive Thresh | 55.36% | 58.91% | 47.18% | 72.79% |
-| **Ours (ADRR + Canny)** | **32.30%** | **63.30%** | **19.83%** | **7.68%** |
+| Adaptive Thresh | 55.38% | 58.95% | 47.20% | 72.77% |
+| **Ours (ADRR + Canny)** | **32.32%** | **63.39%** | **19.84%** | **7.64%** |
 
 ## Table 3: ADRR Degradation Detection Accuracy
 
@@ -64,47 +64,47 @@
 | mblur_moderate_h | 0 | 0 | +0 |
 | mblur_moderate_d | 0 | 0 | +0 |
 | mblur_mild_v | 2 | 2 | +0 |
-| gblur_heavy | 1 | 0 | -1 |
+| gblur_heavy | 2 | 0 | -2 |
 | gblur_mild | 4 | 0 | -4 |
 | combined_dark_blur | 2 | 1 | -1 |
 | combined_moderate | 0 | 0 | +0 |
-| dark_severe | 4 | 2 | -2 |
-| dark_heavy | 4 | 4 | +0 |
-| dark_moderate | 4 | 4 | +0 |
-| dark_mild | 4 | 4 | +0 |
-| mblur_severe_h | 0 | 0 | +0 |
-| mblur_moderate_h | 2 | 2 | +0 |
-| mblur_moderate_d | 0 | 0 | +0 |
-| mblur_mild_v | 3 | 3 | +0 |
-| gblur_heavy | 1 | 1 | +0 |
-| gblur_mild | 3 | 2 | -1 |
-| combined_dark_blur | 2 | 3 | +1 |
-| combined_moderate | 2 | 1 | -1 |
-| dark_severe | 4 | 4 | +0 |
-| dark_heavy | 4 | 4 | +0 |
-| dark_moderate | 4 | 4 | +0 |
-| dark_mild | 5 | 5 | +0 |
-| mblur_severe_h | 0 | 0 | +0 |
-| mblur_moderate_h | 2 | 2 | +0 |
-| mblur_moderate_d | 0 | 0 | +0 |
-| mblur_mild_v | 0 | 0 | +0 |
-| gblur_heavy | 1 | 0 | -1 |
-| gblur_mild | 4 | 1 | -3 |
-| combined_dark_blur | 0 | 1 | +1 |
-| combined_moderate | 0 | 0 | +0 |
-| dark_severe | 4 | 2 | -2 |
+| dark_severe | 4 | 3 | -1 |
 | dark_heavy | 4 | 4 | +0 |
 | dark_moderate | 4 | 4 | +0 |
 | dark_mild | 4 | 4 | +0 |
 | mblur_severe_h | 1 | 1 | +0 |
-| mblur_moderate_h | 3 | 3 | +0 |
+| mblur_moderate_h | 1 | 1 | +0 |
+| mblur_moderate_d | 0 | 0 | +0 |
+| mblur_mild_v | 3 | 3 | +0 |
+| gblur_heavy | 1 | 0 | -1 |
+| gblur_mild | 3 | 2 | -1 |
+| combined_dark_blur | 1 | 3 | +2 |
+| combined_moderate | 0 | 1 | +1 |
+| dark_severe | 4 | 4 | +0 |
+| dark_heavy | 4 | 4 | +0 |
+| dark_moderate | 4 | 4 | +0 |
+| dark_mild | 4 | 4 | +0 |
+| mblur_severe_h | 1 | 1 | +0 |
+| mblur_moderate_h | 2 | 2 | +0 |
 | mblur_moderate_d | 0 | 0 | +0 |
 | mblur_mild_v | 2 | 2 | +0 |
-| gblur_heavy | 2 | 2 | +0 |
+| gblur_heavy | 1 | 0 | -1 |
+| gblur_mild | 4 | 0 | -4 |
+| combined_dark_blur | 0 | 1 | +1 |
+| combined_moderate | 1 | 0 | -1 |
+| dark_severe | 4 | 1 | -3 |
+| dark_heavy | 4 | 4 | +0 |
+| dark_moderate | 4 | 4 | +0 |
+| dark_mild | 4 | 4 | +0 |
+| mblur_severe_h | 1 | 1 | +0 |
+| mblur_moderate_h | 2 | 2 | +0 |
+| mblur_moderate_d | 0 | 0 | +0 |
+| mblur_mild_v | 2 | 2 | +0 |
+| gblur_heavy | 2 | 1 | -1 |
 | gblur_mild | 3 | 1 | -2 |
 | combined_dark_blur | 2 | 2 | +0 |
 | combined_moderate | 0 | 0 | +0 |
-| **Average** | **2.2** | **1.9** | **+-0.3** |
+| **Average** | **2.2** | **1.8** | **+-0.4** |
 
 ## Table 6: Ablation Study — Contribution of Each Pipeline Stage
 
